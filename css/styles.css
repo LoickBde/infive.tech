@@ -10423,6 +10423,36 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
+.team-member .team-member-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.team-member .team-member-link .team-member-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 209, 54, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+
+}
+.team-member .team-member-link .team-member-hover .team-member-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+.team-member .team-member-link:hover .team-member-hover {
+  opacity: 1;
+}
+.team-member-photo-container{
+  border-radius: 50%;
+  width: 223.98px;
+  height: 223.98px;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
