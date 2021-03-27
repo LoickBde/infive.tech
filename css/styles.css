@@ -10422,6 +10422,78 @@ header.masthead .masthead-heading {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
+.team-member .team-member-link {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+.team-member .team-member-link .team-member-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(254, 209, 54, 0.9);
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
+
+}
+.team-member .team-member-link .team-member-hover .team-member-hover-content {
+  font-size: 1.25rem;
+  color: white;
+}
+.team-member .team-member-link:hover .team-member-hover {
+  opacity: 1;
+}
+.team-member-photo-container{
+  border-radius: 50%;
+  width: 223.98px; /*photo dimension*/
+  height: 223.98px;
+}
+
+
+.team-member-modal .modal-dialog {
+  margin: auto;
+  min-width: 60vw;
+}
+.team-member-modal .modal-content {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  text-align: center;
+}
+.team-member-modal .modal-content h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.team-member-modal .modal-content p.item-intro {
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.team-member-modal .modal-content p {
+  margin-bottom: 2rem;
+}
+.team-member-modal .modal-content ul.list-inline {
+  margin-bottom: 2rem;
+}
+.team-member-modal .close-modal {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+.team-member-modal .close-modal:hover {
+  opacity: 0.3;
+}
+.row-logos img{
+  max-height:85px;
+  width: auto;
+  height: auto;
+}
 
 section#contact {
   background-color: #212529;
