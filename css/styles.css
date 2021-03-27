@@ -10495,6 +10495,18 @@ header.masthead .masthead-heading {
   height: auto;
 }
 
+@media only screen and (max-width: 800px) {
+  .row-logos img {
+    max-width: 250px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+  }
+  .row-logos .sm-margin {
+    margin-bottom: 4rem;
+  }
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
