@@ -10489,6 +10489,12 @@ header.masthead .masthead-heading {
 .team-member-modal .close-modal:hover {
   opacity: 0.3;
 }
+.row-logos img{
+  max-height:85px;
+  width: auto;
+  height: auto;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
